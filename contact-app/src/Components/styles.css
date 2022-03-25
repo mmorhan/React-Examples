@@ -1,0 +1,59 @@
+:root{
+    font-size: 16px;
+    --color-dark:#1B1A17;
+    --color-primary:#FF6B6B;
+    --color-secondary:#FFD93D;
+    --color-third:#6BCB77;
+    --color-fourth:#4D96FF;
+}
+
+
+.App{
+    /* background-color: var(--color-dark); */
+}
+.Container{
+    /* margin-top: 2rem; */
+    /* background-color: wheat; */
+    margin-top: 4rem;
+    width: 90%;
+    /* height: 100%; */
+}
+ul{
+    text-align: left;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    margin-top: 1rem;
+    border: #1B1A17 0.1rem solid;
+}
+li{
+    margin-bottom: .1rem;
+    padding: .5rem;
+    transition: background .15s;
+}
+input{
+    border: .1rem solid var(--color-dark);
+    border-radius: .5rem;
+    width: 80%;
+    padding: 0.5rem ;
+    margin-top: .25rem;
+
+}
+button{
+    color: white;
+    font-size: 1.125rem;
+    width: 5rem;
+    padding: .5rem;
+    margin-top:1rem;
+    background-color:var(--color-primary);
+    border: none;
+}
+
+
+.PhoneNumber{
+    font-size: smaller;
+}
+
+li:hover{
+    background-color: var(--color-primary);
+}
