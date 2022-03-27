@@ -13,6 +13,7 @@ import Home from "./components/Routes/Home"
 import About from "./components/Routes/About"
 
 import Profile from "./components/Routes/Profile"
+import Users from "./components/Routes/User"
 
 function App() {
 
@@ -24,12 +25,15 @@ function App() {
         <Link to="/About">About</Link>
         <br />
         <Link to="/Profile">Profile</Link>
+        <br />
+        <Link to="/Users">Users</Link>
       </nav>
 
       <Routes>
         <Route path="/" element={<Home></Home>} />
         <Route path="/about" element={<About></About>}/>
-        <Route path="/Profile/:username" element={<Profile></Profile>}/>
+        <Route path="/Profile/:id" element={<Profile></Profile>}/>
+        <Route path="/Users" element={<Users></Users>}/>
         <Route path="/*" element={Error()} />
       </Routes>
     </Router>
