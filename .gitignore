@@ -1,2 +1,10 @@
-./hello-react/node-modules/
-./contact-app/node-modules/
+./hello-react/node_modules/
+./contact-app/node_modules/
+.vscode
+./fetch-and-routing/node_modules
+./formik/fetch/node_modules
+./hello-react/node_modules
+./input/node_modules
+./lifecycle/node_modules
+./states/node_modules/
+./node_modules
